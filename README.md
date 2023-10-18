@@ -1,5 +1,6 @@
 # help
 求大佬来解惑，新手学习opencv，彩色图像转灰度图像之后为什么数据类型等于0
+
 #include<opencv2/opencv.hpp>
 #include<iostream>
 #include<cvdemo.h>
@@ -21,11 +22,6 @@ int main(int argc,char** argv)
 	cout << "img type: " << img.type() << endl;
 	cout << "img_gray type: " << img_gray.type() << endl;
 
-	/*namedWindow("输入图像", WINDOW_FREERATIO);
-	imshow("输入图像", img);*/
-
-	/*Cvdemo ob;
-	ob.guassnoise_demo(img);*/
 
 	waitKey(0);
 	destroyAllWindows();
